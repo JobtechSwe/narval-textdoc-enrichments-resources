@@ -1,0 +1,4 @@
+# Add configuration for tracking ML-files
+# =========================================
+/resources/prediction_models/** filter=lfs diff=lfs merge=lfs -text
+/resources/wordembedding_models/** filter=lfs diff=lfs merge=lfs -text
